@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hnsi.android_broadcast_receiver">
+
+    <application>
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.hnsi.broadcast_test"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
